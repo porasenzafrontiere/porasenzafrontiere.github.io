@@ -8,7 +8,7 @@
       </div>
       <p>Ogni squadra rappresenterà una nazione del mondo, e avrà l'opportunità di portare i colori, le usanze, i vestiti e le tradizioni di quella nazione nelle sfide. Tutto questo verrà considerato nel punteggio per definire il vincitore del PSF</p>
       {% for service in site.data.settings.services %}
-      <div class="col-2 col-md-5">
+      <div class="col-2 col-sm-5">
         <div class="card hover-shadow shadow">
           <div class="card-body {% if service.active %}active-bg-primary{% endif %} text-center px-2 py-2">
             <img  src="https://flagcdn.com/48x36/{{ service.icon }}.png"  srcset="https://flagcdn.com/96x72/{{ service.icon }}.png 2x,    https://flagcdn.com/144x108/{{ service.icon }}.png 3x"   width="48"   height="36" >
