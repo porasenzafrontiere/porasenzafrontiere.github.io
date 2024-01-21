@@ -39,10 +39,8 @@ hero:
   hero-title: PSF 2024 <br> Frase di Apertura
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/porasenzafrontiere/" }
+  - { icon: "ti-facebook", link: "https://www.facebook.com/PoraSF" }
 
 #-------------------------------
 # About (Section and Page)
