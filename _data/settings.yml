@@ -282,7 +282,7 @@ services:
       }
   - {
         name: Norvegia ,
-        icon: no,
+        icon: 'no',
         description: "Descrizione",
         active: True,# Add true to select section
       }
