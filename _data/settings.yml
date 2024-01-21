@@ -149,22 +149,154 @@ education:
 services-title: Services
 services:
   - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      name: Italia ,
+      icon: it,
+      description: "Descrizione",
+      active: True,# Add true to select section
     }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
+- {
+      name: Jamaica ,
+      icon: jm,
+      description: "Descrizione",
+      active: True,# Add true to select section
     }
-  - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+- {
+      name: Giappone ,
+      icon: jp,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Argentina ,
+      icon: ar,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Svizzera,
+      icon: ch,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Germania ,
+      icon: de,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Città del Vaticano ,
+      icon: va,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Cuba ,
+      icon: cu,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Brasile ,
+      icon: br,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Australia ,
+      icon: au,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Irlanda ,
+      icon: ie,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Spagna ,
+      icon: es,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Usa ,
+      icon: us,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: India ,
+      icon: in,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Perù ,
+      icon: pe,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Scozia ,
+      icon: gb-sct,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Francia ,
+      icon: fr,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Messico ,
+      icon: mx,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Egitto ,
+      icon: eg,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Hawaii ,
+      icon: us-hi,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Groenlandia ,
+      icon: gl,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Olanda ,
+      icon: nl,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Norvegia ,
+      icon: no,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Arabia,
+      icon: ae,
+      description: "Descrizione",
+      active: True,# Add true to select section
+    }
+- {
+      name: Tibet ,
+      icon: tibet.jpeg,
+      description: "Descrizione",
+      active: True,# Add true to select section
     }
 
 #-------------------------------
