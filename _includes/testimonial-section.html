@@ -6,18 +6,21 @@
       <div class="col-12 text-center">
         <h2 class="section-title text-white mb-5">Testimonials</h2>
       </div>
-      <div class="col-lg-10 mx-auto testimonial-slider">
-        {% for testimonial-item in site.data.settings.testimonial-items %}
-        <!-- slider-item -->
-        <div class="text-center testimonial-content">
-          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-          <p class="text-white mb-4">{{ testimonial-item.content }}</p>
-          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{ testimonial-item.image | relative_url }}"
-            alt="{{ testimonial-item.name }}">
-          <h4 class="text-white">{{ testimonial-item.name }}</h4>
-          <h6 class="text-light mb-4">{{ testimonial-item.designation }}</h6>
-        </div>
-        {% endfor %}
+      <div class="col-6 col-md-3 text-center">
+        <h4>13:00</h4>
+        <h6>Check-in</h6>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <h4>13:30</h4>
+        <h6>Sfilata e inizio giochi</h6>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <h4>16:30</h4>
+        <h6>Premiazione</h6>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <h4>17:00</h4>
+        <h6>Party!</h6>
       </div>
     </div>
   </div>
