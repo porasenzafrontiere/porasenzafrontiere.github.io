@@ -150,7 +150,7 @@ services:
       name: Italia ,
       icon: it,
       description: "Descrizione",
-      active: True,# Add true to select section
+      active: False,# Add true to select section
     }
   - {
         name: Jamaica ,
