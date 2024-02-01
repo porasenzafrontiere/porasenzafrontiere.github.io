@@ -290,12 +290,6 @@ services:
         description: "Descrizione",
         active: False,# Add true to select section
       }
-  - {
-        name: Tibet ,
-        icon: tibet.jpeg,
-        description: "Descrizione",
-        active: True,# Add true to select section
-      }
 
 #-------------------------------
 # Portfolio (Section and Page)
