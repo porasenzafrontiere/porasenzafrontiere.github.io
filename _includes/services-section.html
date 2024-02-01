@@ -11,7 +11,7 @@
       {% for service in site.data.settings.services %}
       <div class="col-4 col-sm-2 py-2">
         <div class="card hover-shadow shadow">
-          <div class="card-body {% if service.active %}active-bg-primary nazione-attiva{% else }nazione-disattiva{endif %} text-center px-2 py-2">
+          <div class="card-body {% if service.active %}active-bg-primary nazione-attiva{% else %}nazione-disattiva{% endif %} text-center px-2 py-2">
             <img  src="https://flagcdn.com/48x36/{{ service.icon }}.png"  srcset="https://flagcdn.com/96x72/{{ service.icon }}.png 2x,    https://flagcdn.com/144x108/{{ service.icon }}.png 3x"   width="48"   height="36" >
             <i class="{{ service.icon }} icon mb-2 d-inline-block"></i>
             <h6 class="mb-2">{{ service.name }}</h6>
