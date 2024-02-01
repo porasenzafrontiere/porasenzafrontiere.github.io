@@ -4,6 +4,17 @@
 
 footer h3,footer h5{color:#000;}
 
+nazione-disattiva h6 {
+  text-decoration-color: red;
+  text-decoration-line: line-through;
+  text-decoration-thickness: 0.4rem;
+}
+
+nazione-disattiva img {
+  filter: greyscale(1);
+}
+
+
 
 body {
   line-height: 1.2;
