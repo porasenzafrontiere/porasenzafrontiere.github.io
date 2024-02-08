@@ -174,7 +174,7 @@ services:
         name: Svizzera,
         icon: ch,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Germania ,
@@ -210,7 +210,7 @@ services:
         name: Irlanda ,
         icon: ie,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Spagna ,
