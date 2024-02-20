@@ -186,13 +186,13 @@ services:
         name: Città del Vaticano ,
         icon: va,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Cuba ,
         icon: cu,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Brasile ,
