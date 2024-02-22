@@ -204,7 +204,7 @@ services:
         name: Australia ,
         icon: au,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Irlanda ,
@@ -252,7 +252,7 @@ services:
         name: Messico ,
         icon: mx,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Egitto ,
@@ -264,7 +264,7 @@ services:
         name: Hawaii ,
         icon: us-hi,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Groenlandia ,
