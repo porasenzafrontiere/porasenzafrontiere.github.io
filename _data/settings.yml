@@ -282,7 +282,7 @@ services:
         name: Norvegia ,
         icon: 'no',
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Arabia,
