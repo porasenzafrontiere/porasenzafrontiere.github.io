@@ -162,7 +162,7 @@ services:
         name: Giappone ,
         icon: jp,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Argentina ,
@@ -180,7 +180,7 @@ services:
         name: Germania ,
         icon: de,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Città del Vaticano ,
@@ -216,7 +216,7 @@ services:
         name: Spagna ,
         icon: es,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Usa ,
