@@ -246,7 +246,7 @@ services:
         name: Francia ,
         icon: fr,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Messico ,
