@@ -168,7 +168,7 @@ services:
         name: Argentina ,
         icon: ar,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Svizzera,
@@ -198,7 +198,7 @@ services:
         name: Brasile ,
         icon: br,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Australia ,
@@ -258,7 +258,7 @@ services:
         name: Egitto ,
         icon: eg,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Hawaii ,
@@ -276,7 +276,7 @@ services:
         name: Olanda ,
         icon: nl,
         description: "Descrizione",
-        active: True,# Add true to select section
+        active: False,# Add true to select section
       }
   - {
         name: Norvegia ,
