@@ -5,11 +5,11 @@
 title: PSF
 logo:
 author: Armin Hadziosmanovic
-description: Sito per l'edizione 2024 del PoraSenzaFrontiere
+description: LE PORALIMPIADI - 10° Anniversario - 7 Febbraio 2026 - Limited Edition
 email: begaraj@gmail.com
 phone: 
 address: Clusone
-copyright: Copyright &copy; 2024 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+copyright: Copyright &copy; 2026 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
   - { name: About, link: "/about" }
@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: PSF 2024 <br> Frase di Apertura
+  hero-title: LE PORALIMPIADI <br> 10° Anniversario <br> 7 Febbraio 2026
 
 social:
   - { icon: "ti-instagram", link: "https://www.instagram.com/porasenzafrontiere/" }
@@ -46,7 +46,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: Dopo 9 edizioni indimenticabili, PORA Senza Frontiere celebra il suo 10° anniversario con LE PORALIMPIADI - un evento unico ispirato alle Olimpiadi invernali. Limited Edition con solo 50 partecipanti, 25 squadre da 2 persone, spirito olimpico e ironia garantita. Un evento irripetibile che farà storia.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -118,27 +118,22 @@ experience:
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: I Giochi Olimpici
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: Cerimonia di Apertura,
+      date: "7 Febbraio 2026",
+      organization: "Passaggio della Fiaccola Olimpica",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: Giochi a Squadre,
+      date: "7 Febbraio 2026",
+      organization: "25 Nazioni in Competizione",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: Cerimonia di Chiusura,
+      date: "7 Febbraio 2026",
+      organization: "Premiazione Medaglie e Festa con DJ Lorisio",
     }
 
 #-------------------------------
@@ -150,79 +145,79 @@ services:
       name: Italia ,
       icon: it,
       description: "Descrizione",
-      active: False,# Add true to select section
+      active: True,# Add true to select section
     }
   - {
         name: Jamaica ,
         icon: jm,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Giappone ,
         icon: jp,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Argentina ,
         icon: ar,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Svizzera,
         icon: ch,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Germania ,
         icon: de,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Città del Vaticano ,
         icon: va,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Cuba ,
         icon: cu,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Brasile ,
         icon: br,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Australia ,
         icon: au,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Irlanda ,
         icon: ie,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Spagna ,
         icon: es,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Usa ,
         icon: us,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: India ,
@@ -240,31 +235,31 @@ services:
         name: Scozia ,
         icon: gb-sct,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Francia ,
         icon: fr,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Messico ,
         icon: mx,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Egitto ,
         icon: eg,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Hawaii ,
         icon: us-hi,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Groenlandia ,
@@ -276,19 +271,19 @@ services:
         name: Olanda ,
         icon: nl,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Norvegia ,
         icon: 'no',
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
   - {
         name: Arabia,
         icon: ae,
         description: "Descrizione",
-        active: False,# Add true to select section
+        active: True,# Add true to select section
       }
 
 #-------------------------------
@@ -371,20 +366,20 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
+  - name: "Cerimonia di Apertura"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Ingresso Atleti"
+    content: "Passaggio della fiaccola olimpica tra le 25 nazioni partecipanti. Presentazione ufficiale delle squadre e giuramento olimpico. <strong>L'inizio di una leggenda.</strong>"
 
-  - name: "Jesica Gomez"
+  - name: "Le Gare Olimpiche"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Sfide a Squadre"
+    content: "Sfide a squadre da 2 persone in veri giochi olimpici invernali rivisitati in chiave PORA. <strong>Solo i migliori conquisteranno il podio.</strong>"
 
-  - name: "Jesica Gomez"
+  - name: "Cerimonia di Chiusura"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Premiazioni e Festa"
+    content: "Premiazione delle squadre vincitrici con medaglie d'oro, argento e bronzo. <strong>Festa con DJ Lorisio. Eddie the Eagle sarà orgoglioso di voi.</strong>"
 
 #-------------------------------
 # Client Slider Section
