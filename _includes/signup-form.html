@@ -1,5 +1,20 @@
 <!-- signup form -->
-<section class="section bg-light" id="iscrizione">
+<style>
+  #iscrizione .form-label,
+  #iscrizione .form-check-label,
+  #iscrizione .card-title,
+  #iscrizione p,
+  #iscrizione small {
+    color: #212529 !important;
+  }
+  #iscrizione .text-muted {
+    color: #6c757d !important;
+  }
+  #iscrizione .card {
+    border: 1px solid rgba(0,0,0,0.125);
+  }
+</style>
+<section class="section" id="iscrizione" style="background-color: #f8f9fa;">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
@@ -13,10 +28,10 @@
     <div class="row mb-4">
       <div class="col-lg-8 mx-auto">
         <div class="card">
-          <div class="card-body text-center">
+          <div class="card-body text-center" style="background-color: #fff; color: #212529;">
             <h5 class="card-title">Nazioni Disponibili</h5>
             <p class="mb-2">
-              <span id="available-count" class="badge bg-success fs-5">--</span> / 24 nazioni ancora disponibili
+              <span id="available-count" class="badge bg-success fs-5">--</span> / 25 nazioni ancora disponibili
             </p>
             <div id="loading-countries" class="spinner-border spinner-border-sm text-primary" role="status">
               <span class="visually-hidden">Caricamento...</span>
@@ -35,7 +50,7 @@
             <div class="card-header bg-primary text-white">
               <h5 class="mb-0"><i class="ti-email me-2"></i>Contatto</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #fff; color: #212529;">
               <div class="mb-3">
                 <label for="email" class="form-label">Email *</label>
                 <input type="email" class="form-control" id="email" name="email" required>
@@ -49,7 +64,7 @@
             <div class="card-header bg-primary text-white">
               <h5 class="mb-0"><i class="ti-user me-2"></i>Partecipante 1</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #fff; color: #212529;">
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <label for="p1_nome" class="form-label">Nome e Cognome *</label>
@@ -99,7 +114,7 @@
             <div class="card-header bg-primary text-white">
               <h5 class="mb-0"><i class="ti-user me-2"></i>Partecipante 2</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #fff; color: #212529;">
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <label for="p2_nome" class="form-label">Nome e Cognome *</label>
@@ -149,7 +164,7 @@
             <div class="card-header bg-primary text-white">
               <h5 class="mb-0"><i class="ti-id-badge me-2"></i>Rappresentante di Squadra</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #fff; color: #212529;">
               <p class="text-muted small">Indicare il nominativo e i dettagli del rappresentante di squadra che verrà contattato per le comunicazioni dall'organizzazione.</p>
               <div class="row">
                 <div class="col-md-4 mb-3">
@@ -176,7 +191,7 @@
             <div class="card-header bg-primary text-white">
               <h5 class="mb-0"><i class="ti-flag-alt me-2"></i>Nazione</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #fff; color: #212529;">
               <p class="text-muted small">Selezionare la nazione che si vuole rappresentare. Le nazioni già scelte da altre squadre non sono disponibili.</p>
               <div class="mb-3">
                 <label for="nazione" class="form-label">Nazione Scelta *</label>
@@ -193,7 +208,7 @@
             <div class="card-header bg-primary text-white">
               <h5 class="mb-0"><i class="ti-credit-card me-2"></i>Pagamento</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="background-color: #fff; color: #212529;">
               <p class="text-muted small">L'invio del seguente modulo viene considerato come una pre-iscrizione. L'iscrizione verrà considerata effettiva al ricevimento del pagamento. Il totale da versare sarà di <strong>50€ per squadra</strong>.</p>
               <div class="mb-3">
                 <label class="form-label">Metodo di Pagamento *</label>
