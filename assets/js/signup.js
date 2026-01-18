@@ -3,7 +3,7 @@
  *
  * CONFIGURAZIONE: Sostituisci l'URL qui sotto con l'URL del tuo Google Apps Script deployment
  */
-const API_URL = 'https://script.google.com/macros/s/AKfycbx1hqelviL3TWROfkmJX9cWIoJUkzvyrssqeVH_U6Z_BZ-OpXzuh5XRz-hCmhjuv8dNJg/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbzKHBafUyQRKxWRSf9pC6kHECsf4RmnCLjSImuQqgWO9Y8o9Fra04J9zll8o5i8c2dvkQ/exec';
 
 /**
  * Carica le nazioni disponibili all'avvio della pagina
