@@ -1,0 +1,244 @@
+<!-- signup form -->
+<section class="section bg-light" id="iscrizione">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 class="section-title">Iscrizioni PSF 2026</h2>
+        <p class="text-muted">Modulo di iscrizione per Pora Senza Frontiere 2026 - LE PORALIMPIADI</p>
+        <p><small>Per eventuali dubbi sulla compilazione contattare il numero CAI su Whatsapp: <a href="https://wa.me/39034625452">034625452</a></small></p>
+      </div>
+    </div>
+
+    <!-- Status nazioni -->
+    <div class="row mb-4">
+      <div class="col-lg-8 mx-auto">
+        <div class="card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Nazioni Disponibili</h5>
+            <p class="mb-2">
+              <span id="available-count" class="badge bg-success fs-5">--</span> / 24 nazioni ancora disponibili
+            </p>
+            <div id="loading-countries" class="spinner-border spinner-border-sm text-primary" role="status">
+              <span class="visually-hidden">Caricamento...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form id="signup-form" class="needs-validation" novalidate>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+
+          <!-- Sezione 1: Email -->
+          <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0"><i class="ti-email me-2"></i>Contatto</h5>
+            </div>
+            <div class="card-body">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+                <div class="invalid-feedback">Inserisci un indirizzo email valido.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sezione 2: Partecipante 1 -->
+          <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0"><i class="ti-user me-2"></i>Partecipante 1</h5>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="p1_nome" class="form-label">Nome e Cognome *</label>
+                  <input type="text" class="form-control" id="p1_nome" name="p1_nome" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="p1_nascita" class="form-label">Data di Nascita *</label>
+                  <input type="date" class="form-control" id="p1_nascita" name="p1_nascita" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Tesserato CAI *</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="p1_cai" id="p1_cai_si" value="Si" required>
+                  <label class="form-check-label" for="p1_cai_si">Sì</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="p1_cai" id="p1_cai_no" value="No">
+                  <label class="form-check-label" for="p1_cai_no">No</label>
+                </div>
+                <div class="invalid-feedback">Seleziona un'opzione.</div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="p1_cf" class="form-label">Codice Fiscale *</label>
+                  <input type="text" class="form-control" id="p1_cf" name="p1_cf" pattern="^[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]$" style="text-transform: uppercase;" required>
+                  <div class="invalid-feedback">Inserisci un codice fiscale valido (16 caratteri).</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="p1_telefono" class="form-label">N° Telefono *</label>
+                  <input type="tel" class="form-control" id="p1_telefono" name="p1_telefono" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="p1_indirizzo" class="form-label">Indirizzo di Residenza *</label>
+                <input type="text" class="form-control" id="p1_indirizzo" name="p1_indirizzo" required>
+                <div class="invalid-feedback">Campo obbligatorio.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sezione 3: Partecipante 2 -->
+          <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0"><i class="ti-user me-2"></i>Partecipante 2</h5>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="p2_nome" class="form-label">Nome e Cognome *</label>
+                  <input type="text" class="form-control" id="p2_nome" name="p2_nome" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="p2_nascita" class="form-label">Data di Nascita *</label>
+                  <input type="date" class="form-control" id="p2_nascita" name="p2_nascita" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Tesserato CAI *</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="p2_cai" id="p2_cai_si" value="Si" required>
+                  <label class="form-check-label" for="p2_cai_si">Sì</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="p2_cai" id="p2_cai_no" value="No">
+                  <label class="form-check-label" for="p2_cai_no">No</label>
+                </div>
+                <div class="invalid-feedback">Seleziona un'opzione.</div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="p2_cf" class="form-label">Codice Fiscale *</label>
+                  <input type="text" class="form-control" id="p2_cf" name="p2_cf" pattern="^[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]$" style="text-transform: uppercase;" required>
+                  <div class="invalid-feedback">Inserisci un codice fiscale valido (16 caratteri).</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="p2_telefono" class="form-label">N° Telefono *</label>
+                  <input type="tel" class="form-control" id="p2_telefono" name="p2_telefono" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="p2_indirizzo" class="form-label">Indirizzo di Residenza *</label>
+                <input type="text" class="form-control" id="p2_indirizzo" name="p2_indirizzo" required>
+                <div class="invalid-feedback">Campo obbligatorio.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sezione 4: Rappresentante di squadra -->
+          <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0"><i class="ti-id-badge me-2"></i>Rappresentante di Squadra</h5>
+            </div>
+            <div class="card-body">
+              <p class="text-muted small">Indicare il nominativo e i dettagli del rappresentante di squadra che verrà contattato per le comunicazioni dall'organizzazione.</p>
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label for="rapp_nome" class="form-label">Nome *</label>
+                  <input type="text" class="form-control" id="rapp_nome" name="rapp_nome" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="rapp_telefono" class="form-label">N° di Telefono *</label>
+                  <input type="tel" class="form-control" id="rapp_telefono" name="rapp_telefono" required>
+                  <div class="invalid-feedback">Campo obbligatorio.</div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="rapp_email" class="form-label">Email *</label>
+                  <input type="email" class="form-control" id="rapp_email" name="rapp_email" required>
+                  <div class="invalid-feedback">Inserisci un indirizzo email valido.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sezione 5: Nazione -->
+          <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0"><i class="ti-flag-alt me-2"></i>Nazione</h5>
+            </div>
+            <div class="card-body">
+              <p class="text-muted small">Selezionare la nazione che si vuole rappresentare. Le nazioni già scelte da altre squadre non sono disponibili.</p>
+              <div class="mb-3">
+                <label for="nazione" class="form-label">Nazione Scelta *</label>
+                <select class="form-select" id="nazione" name="nazione" required>
+                  <option value="">Caricamento nazioni...</option>
+                </select>
+                <div class="invalid-feedback">Seleziona una nazione.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sezione 6: Pagamento -->
+          <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0"><i class="ti-credit-card me-2"></i>Pagamento</h5>
+            </div>
+            <div class="card-body">
+              <p class="text-muted small">L'invio del seguente modulo viene considerato come una pre-iscrizione. L'iscrizione verrà considerata effettiva al ricevimento del pagamento. Il totale da versare sarà di <strong>50€ per squadra</strong>.</p>
+              <div class="mb-3">
+                <label class="form-label">Metodo di Pagamento *</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="pagamento" id="pagamento_iban" value="IBAN - IT75G0503452910000000010540 - Intestato a CAI Clusone - Causale PSF" required>
+                  <label class="form-check-label" for="pagamento_iban">
+                    <strong>Bonifico Bancario</strong><br>
+                    <small class="text-muted">IBAN: IT75G0503452910000000010540 - Intestato a CAI Clusone - Causale: PSF</small>
+                  </label>
+                </div>
+                <div class="form-check mt-2">
+                  <input class="form-check-input" type="radio" name="pagamento" id="pagamento_paypal" value="PayPal - Inviare la somma a simonetrussardi@gmail.com - (Selezionare l'opzione Amici e Familiari)">
+                  <label class="form-check-label" for="pagamento_paypal">
+                    <strong>PayPal</strong><br>
+                    <small class="text-muted">Inviare a simonetrussardi@gmail.com (opzione "Amici e Familiari")</small>
+                  </label>
+                </div>
+                <div class="form-check mt-2">
+                  <input class="form-check-input" type="radio" name="pagamento" id="pagamento_sede" value="Pagamento in sede C.A.I. - Piazza S. Anna - Tutti i venerdì dalle 21 alle 23:30">
+                  <label class="form-check-label" for="pagamento_sede">
+                    <strong>Pagamento in Sede CAI</strong><br>
+                    <small class="text-muted">Piazza S. Anna - Tutti i venerdì dalle 21:00 alle 23:30</small>
+                  </label>
+                </div>
+                <div class="invalid-feedback">Seleziona un metodo di pagamento.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Submit -->
+          <div class="text-center mb-5">
+            <div id="form-error" class="alert alert-danger d-none" role="alert"></div>
+            <div id="form-success" class="alert alert-success d-none" role="alert">
+              <h4>Iscrizione completata!</h4>
+              <p>Grazie per esserti iscritto a Pora Senza Frontiere 2026. Riceverai una conferma via email.</p>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg px-5" id="submit-btn">
+              <span id="submit-text">Invia Iscrizione</span>
+              <span id="submit-spinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- /signup form -->
