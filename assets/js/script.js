@@ -34,10 +34,13 @@
   /* ########################################### hero parallax ############################################## */
   window.onload = function () {
     var parallaxBox = document.getElementById("parallax");
-    var /* c1left = document.getElementById('l1').offsetLeft,
-                       c1top = document.getElementById('l1').offsetTop, */
-      c2left = document.getElementById("l2").offsetLeft,
-      c2top = document.getElementById("l2").offsetTop,
+    var l2 = document.getElementById("l2");
+
+    // Solo esegui il parallax se gli elementi esistono
+    if (!parallaxBox || !l2) return;
+
+    var c2left = l2.offsetLeft,
+      c2top = l2.offsetTop,
       c3left = document.getElementById("l3").offsetLeft,
       c3top = document.getElementById("l3").offsetTop,
       c4left = document.getElementById("l4").offsetLeft,
@@ -142,15 +145,18 @@
   var Shuffle = window.Shuffle;
   var jQuery = window.jQuery;
 
-  var myShuffle = new Shuffle(document.querySelector(".shuffle-wrapper"), {
-    itemSelector: ".shuffle-item",
-    buffer: 1,
-  });
+  var shuffleWrapper = document.querySelector(".shuffle-wrapper");
+  if (shuffleWrapper) {
+    var myShuffle = new Shuffle(shuffleWrapper, {
+      itemSelector: ".shuffle-item",
+      buffer: 1,
+    });
 
-  jQuery('input[name="shuffle-filter"]').on("change", function (evt) {
-    var input = evt.currentTarget;
-    if (input.checked) {
-      myShuffle.filter(input.value);
-    }
-  });
+    jQuery('input[name="shuffle-filter"]').on("change", function (evt) {
+      var input = evt.currentTarget;
+      if (input.checked) {
+        myShuffle.filter(input.value);
+      }
+    });
+  }
 })(jQuery);

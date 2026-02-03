@@ -26,8 +26,10 @@ async function loadAvailableCountries() {
     const data = await response.json();
 
     if (data.success) {
-      // Aggiorna il contatore
-      availableCount.textContent = data.countries.length;
+      // Aggiorna il contatore (se l'elemento esiste)
+      if (availableCount) {
+        availableCount.textContent = data.countries.length;
+      }
 
       // Popola il dropdown
       select.innerHTML = '<option value="">-- Seleziona una nazione --</option>';
@@ -40,24 +42,32 @@ async function loadAvailableCountries() {
         select.appendChild(option);
       });
 
-      // Nascondi lo spinner
-      loadingSpinner.classList.add('d-none');
+      // Nascondi lo spinner (se esiste)
+      if (loadingSpinner) {
+        loadingSpinner.classList.add('d-none');
+      }
 
       // Se non ci sono nazioni disponibili
       if (data.countries.length === 0) {
         select.innerHTML = '<option value="">Tutte le nazioni sono state assegnate!</option>';
         select.disabled = true;
         document.getElementById('submit-btn').disabled = true;
-        availableCount.classList.remove('bg-success');
-        availableCount.classList.add('bg-danger');
+        if (availableCount) {
+          availableCount.classList.remove('bg-success');
+          availableCount.classList.add('bg-danger');
+        }
       }
     } else {
       throw new Error(data.error || 'Errore nel caricamento delle nazioni');
     }
   } catch (error) {
     console.error('Errore:', error);
-    loadingSpinner.classList.add('d-none');
-    availableCount.textContent = '?';
+    if (loadingSpinner) {
+      loadingSpinner.classList.add('d-none');
+    }
+    if (availableCount) {
+      availableCount.textContent = '?';
+    }
     select.innerHTML = '<option value="">Errore nel caricamento - ricarica la pagina</option>';
 
     // Mostra messaggio di errore
